@@ -19,5 +19,6 @@ namespace Aula01.Controllers;
         var repository = new DisciplinaRepository();
         var Disciplina = repository.Obeterinfos(id);
         return Ok(Disciplina);
+        
     }
 }
