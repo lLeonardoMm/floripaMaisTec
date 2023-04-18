@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RkjEI2lAIbkF92Bi424JfJXGGHAOt/9zlV3c6J0NyPdOSq+mGVR+A8l5P70ixSqDF5u2wmFlgkwjJM/MSVEWSQ==",
+  "dgSpecHash": "D1/cGumAt+HT1vCUA9xHxQoXsQCTVioc2S96q6dCvU5radtOQpU/ZYEPr3G79Ko/rBQ0GtQ7WPdP5UcttkvQ5g==",
   "success": true,
-  "projectFilePath": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana_08\\Aula01\\Escola.csproj",
+  "projectFilePath": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana08\\Aula01\\Escola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo-Desktop\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\Leo-Desktop\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana_08\\Aula01\\Escola.csproj",
+      "projectUniqueName": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana08\\Aula01\\Escola.csproj",
       "projectName": "Escola",
-      "projectPath": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana_08\\Aula01\\Escola.csproj",
+      "projectPath": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana08\\Aula01\\Escola.csproj",
       "packagesPath": "C:\\Users\\Leo-Desktop\\.nuget\\packages\\",
-      "outputPath": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana_08\\Aula01\\obj\\",
+      "outputPath": "D:\\Floripa mais tec\\floripaMaisTec\\modulo01\\Semana08\\Aula01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leo-Desktop\\AppData\\Roaming\\NuGet\\NuGet.Config",
