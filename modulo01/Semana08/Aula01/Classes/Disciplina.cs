@@ -1,11 +1,9 @@
-using System.Collections.Generic;
+namespace Aula02.Models;
 
-namespace Aula01.Classe;
-
-public class Disciplina
+public class Disciplina : BaseModel
 {
-    public int Id { get; set; }
-    public int CargaHrr { get; set; }
+
+
     public string Nome { get; set; }
-    
+    public int CargaHoraria { get; set; }
 }

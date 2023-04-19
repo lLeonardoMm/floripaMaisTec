@@ -1,24 +1,27 @@
-using System.Runtime.InteropServices;
-using Aula01.Classe;
+using Aula02.Models;
 
-namespace Aluno.Repository;
+namespace Aula02.Repositories;
 
 public class DisciplinaRepository
 {
 
-    private static List<Disciplina> infos = new List<Disciplina>(){
-       new Disciplina { Id = 1, CargaHrr = 20, Nome = "História" },
-       new Disciplina { Id = 2, CargaHrr = 10, Nome = "História do Brasil" },
-       new Disciplina { Id = 3, CargaHrr = 25, Nome = "História Geral" },
-       new Disciplina { Id = 4, CargaHrr = 20, Nome = "Matemática" }
+    private static List<Disciplina> lista = new List<Disciplina>(){
+       new Disciplina { Id = 1, CargaHoraria = 20, Nome = "História" },
+       new Disciplina { Id = 2, CargaHoraria = 10, Nome = "História do Brasil" },
+       new Disciplina { Id = 3, CargaHoraria = 25, Nome = "História Geral" },
+       new Disciplina { Id = 4, CargaHoraria = 20, Nome = "Matemática" }
     };
 
-    public Disciplina Obeterinfos(int id)
+    public List<Disciplina> ListarDisciplinas(string? filtroNome)
     {
-        return infos.FirstOrDefault(i => i.Id == id);
 
+        if (string.IsNullOrEmpty(filtroNome))
+            return lista;
+        else
+            return lista.Where(z => z.Nome.ToLower().Contains(filtroNome.ToLower()))
+            .OrderBy(x => x.Id)
+            .ToList();
     }
 }
 
 
-    

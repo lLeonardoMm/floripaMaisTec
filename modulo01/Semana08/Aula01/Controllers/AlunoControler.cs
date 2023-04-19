@@ -1,26 +1,21 @@
-namespace Aula01.Controllers;
-using Aula01.Classe;
-
+//using Aluno.Repository;
+//using Aula02.Dtos;
+using Aula02.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
+namespace Aula02.Controllers;
+
 [ApiController]
-[Route("Estudantes")]
-public class AlunoController : ControllerBase
+[Route("[controller]")]
+public class DisciplinaController : ControllerBase
 {
+
     [HttpGet]
-    [Route("{id}")]
-    public IActionResult ObeterInfosAlunos (int id){ 
-        
-        var alunos = new Aluno();
-        alunos.Id = id;
-        alunos.DataDeNascimento = new DateTime(1990, 10, 10);
-        alunos.Nome = "Leonardo";
+    public IActionResult Listar([FromQuery] string? nome)
+    {
+        var repository = new DisciplinaRepository();
+        var disciplinas = repository.ListarDisciplinas(nome);
 
-        if (id > 10)
-        {
-           return Ok(alunos.DataDeNascimento);
-        };
-
-        return Ok(id);
+        return Ok(disciplinas);
     }
 }
