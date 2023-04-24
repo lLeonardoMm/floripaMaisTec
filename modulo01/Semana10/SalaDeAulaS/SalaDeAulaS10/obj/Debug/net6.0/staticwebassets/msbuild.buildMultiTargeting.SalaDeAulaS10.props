@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SalaDeAulaS10.props" />
+</Project>
